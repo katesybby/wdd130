@@ -1,0 +1,19 @@
+h1 {
+text-align: center;
+color: rgb(14, 134, 233);
+}
+img {
+width: 80%;
+display: block;
+margin: 0 auto;
+max-width: 500px;
+}
+p {
+text-align: center;
+padding: 10px;
+}
+footer p {
+text-align: center;
+font-size: 20px;
+margin: 20px auto;
+}

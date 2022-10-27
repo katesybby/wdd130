@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+h1{
+    grid-area: center;
+    font-size: 500px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+}
+
+h2{
+    font-size: 50em;
+    letter-spacing: 2em;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    color: red;
+    align-self: start;
+    margin-top: 0;
+}
+
+
+body {
+    justify-items: end;
+    background-color: rgb(100, 100, 100);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
